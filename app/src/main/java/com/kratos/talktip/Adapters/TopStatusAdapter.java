@@ -43,6 +43,11 @@ public class TopStatusAdapter extends RecyclerView.Adapter<TopStatusAdapter.TopS
 
         UserStatus userStatus = userStatuses.get(position);
 
+        Status lastStatus = userStatus.getStatuses().get(userStatus.getStatuses().size()-1);
+
+        Glide.with(context).load(lastStatus.getImageUrl()).into(holder.binding.image);
+
+        holder.binding.circularStatusView.setPortionsCount(userStatus.getStatuses().size());
 
         holder.binding.circularStatusView.setOnClickListener(new View.OnClickListener() {
             @Override

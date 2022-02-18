@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ArrayList<Status> statuses = new ArrayList<>();
 
-                        for(DataSnapshot statusSnapshot : snapshot.child("statuses").getChildren()){
+                        for(DataSnapshot statusSnapshot : storySnapshot.child("statuses").getChildren()){
                             Status sampleStatus = statusSnapshot.getValue(Status.class);
                             statuses.add(sampleStatus);
                         }
