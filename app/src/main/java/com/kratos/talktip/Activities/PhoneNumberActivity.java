@@ -35,8 +35,13 @@ public class PhoneNumberActivity extends AppCompatActivity {
         binding.continueBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String phoneNumber = binding.phoneBox.getText().toString();
+                if(phoneNumber.isEmpty()){
+                    binding.phoneBox.setError("Please Enter phone number");
+                    return;
+                }
                 Intent intent = new Intent(PhoneNumberActivity.this,OTPActivity.class);
-                intent.putExtra("phoneNumber", binding.phoneBox.getText().toString());//phone number send to Otp activity
+                intent.putExtra("phoneNumber", phoneNumber);//phone number send to Otp activity
                 startActivity(intent);
             }
         });

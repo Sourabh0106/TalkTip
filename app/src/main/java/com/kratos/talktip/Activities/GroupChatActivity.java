@@ -89,7 +89,10 @@ public class GroupChatActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String messageTxt = binding.messageBox.getText().toString();
-
+                if(messageTxt.isEmpty()){
+                    binding.messageBox.setError("Kindly type a message");
+                    return;
+                }
                 Date date = new Date();
                 Message message = new Message(messageTxt, senderUid,date.getTime());
                 binding.messageBox.setText("");
