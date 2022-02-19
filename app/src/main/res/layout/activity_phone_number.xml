@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/textbox_outline"
                 android:ems="10"
-                android:hint="Type your phone number"
+                android:hint="+91 Enter your phone number"
                 android:inputType="number|textPersonName"
                 android:minHeight="48dp"
                 android:padding="10dp"

@@ -60,7 +60,7 @@ public class OTPActivity extends AppCompatActivity {
 
                     @Override
                     public void onVerificationFailed(@NonNull FirebaseException e) {
-
+                        Toast.makeText(OTPActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
 
                     //over rider code sent

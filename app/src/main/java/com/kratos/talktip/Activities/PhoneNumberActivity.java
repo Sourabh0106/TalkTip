@@ -36,13 +36,19 @@ public class PhoneNumberActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String phoneNumber = binding.phoneBox.getText().toString();
-                if(phoneNumber.isEmpty()){
-                    binding.phoneBox.setError("Please Enter phone number");
-                    return;
+                if(!phoneNumber.isEmpty()){
+                    if((phoneNumber.trim()).length() == 10) {
+                        Intent intent = new Intent(PhoneNumberActivity.this,OTPActivity.class);
+                        intent.putExtra("phoneNumber", "+91"+phoneNumber);//phone number send to Otp activity
+                        startActivity(intent);
+                    }
+                    else{
+                        binding.phoneBox.setError("Enter 10 digit phone number");
+                    }
                 }
-                Intent intent = new Intent(PhoneNumberActivity.this,OTPActivity.class);
-                intent.putExtra("phoneNumber", phoneNumber);//phone number send to Otp activity
-                startActivity(intent);
+                else{
+                    binding.phoneBox.setError("Enter mobile number");
+                }
             }
         });
     }
