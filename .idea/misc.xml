@@ -11,13 +11,16 @@
         <entry key="..\:/TalkTip/app/src/main/res/drawable/ic_sad.xml" value="0.2526041666666667" />
         <entry key="..\:/TalkTip/app/src/main/res/drawable/ic_search.xml" value="0.2526041666666667" />
         <entry key="..\:/TalkTip/app/src/main/res/drawable/ic_user1.xml" value="0.2526041666666667" />
+        <entry key="..\:/TalkTip/app/src/main/res/drawable/ic_wow.xml" value="0.2526041666666667" />
+        <entry key="..\:/TalkTip/app/src/main/res/drawable/linear_bg.xml" value="0.2526041666666667" />
         <entry key="..\:/TalkTip/app/src/main/res/drawable/send_drawable.xml" value="0.2526041666666667" />
         <entry key="..\:/TalkTip/app/src/main/res/drawable/textbox_outline.xml" value="0.2526041666666667" />
         <entry key="..\:/TalkTip/app/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/TalkTip/app/src/main/res/layout/activity_group_chat.xml" value="0.23645833333333333" />
-        <entry key="..\:/TalkTip/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/TalkTip/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/TalkTip/app/src/main/res/layout/activity_o_t_p.xml" value="0.264" />
         <entry key="..\:/TalkTip/app/src/main/res/layout/activity_phone_number.xml" value="0.264" />
+        <entry key="..\:/TalkTip/app/src/main/res/layout/activity_setting.xml" value="0.4" />
         <entry key="..\:/TalkTip/app/src/main/res/layout/activity_setup_profile.xml" value="0.23645833333333333" />
         <entry key="..\:/TalkTip/app/src/main/res/layout/delete_dialog.xml" value="0.23645833333333333" />
         <entry key="..\:/TalkTip/app/src/main/res/layout/demo_layout.xml" value="0.23645833333333333" />

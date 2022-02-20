@@ -1,7 +1,7 @@
 package com.kratos.talktip.Models;
 
 public class User {
-    private String uid,name,phoneNumber,profileImage;
+    private String uid,name,phoneNumber,profileImage,about;
     public User(){}
     public User(String uid, String name, String phoneNumber, String profileImage) {
         this.uid = uid;
@@ -42,5 +42,13 @@ public class User {
 
     public void setProfileImage(String profileImage) {
         this.profileImage = profileImage;
+    }
+
+    public String getAbout() {
+        return about;
+    }
+
+    public void setAbout(String about) {
+        this.about = about;
     }
 }

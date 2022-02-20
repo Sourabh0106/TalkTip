@@ -235,6 +235,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.settings:
                 Toast.makeText(this, "Settings Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this,SettingActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

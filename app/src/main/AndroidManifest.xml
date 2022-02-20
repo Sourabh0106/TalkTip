@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TalkTip"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Activities.SettingActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.GroupChatActivity"
             android:exported="false" />
         <activity
@@ -40,17 +43,20 @@
             android:name=".Activities.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden" />
-
-        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
-     See README(https://goo.gl/l4GJaQ) for more. -->
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/ic_send_svgrepo_com" />
-        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
-             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/green" />
     </application>
-
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 </manifest>
