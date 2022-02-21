@@ -108,7 +108,7 @@ public class SettingActivity extends AppCompatActivity {
                     }
                 });
 
-        binding.plus.setOnClickListener(new View.OnClickListener() {
+        binding.profileImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();

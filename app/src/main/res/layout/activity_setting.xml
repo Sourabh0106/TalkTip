@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/green"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
     tools:context=".Activities.SettingActivity">
 
     <ImageView
@@ -13,8 +13,10 @@
         android:layout_height="30dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        app:tint="@color/white"
-        android:src="@drawable/ic_back_arrow_direction_down_right_left_up_svgrepo_com" />
+        android:backgroundTint="#4CAF50"
+        android:src="@drawable/ic_back_arrow_direction_down_right_left_up_svgrepo_com"
+        android:tint="#4CAF50"
+        app:tint="@color/green" />
 
     <LinearLayout
         android:id="@+id/linear"
@@ -37,15 +39,6 @@
             app:civ_border_color="#FF000000"
             app:civ_border_width="2dp" />
 
-        <ImageView
-            android:id="@+id/plus"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="-30dp"
-            app:srcCompat="@drawable/ic_plus"
-            app:tint="#ED319BEF" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -58,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:text="User Name :"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -69,8 +62,8 @@
                 android:ems="10"
                 android:hint="Enter name"
                 android:inputType="textPersonName"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
 
@@ -86,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:text="About:"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -97,8 +90,8 @@
                 android:ems="10"
                 android:hint="About"
                 android:inputType="textPersonName"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
 
@@ -110,8 +103,8 @@
             android:layout_marginTop="10dp"
             android:padding="5dp"
             android:text="Save"
-            android:textColor="@color/greenDark"
-            app:backgroundTint="@color/white" />
+            android:textColor="@color/white"
+            app:backgroundTint="@color/green" />
 
     </LinearLayout>
 
@@ -153,34 +146,6 @@
             app:drawableTint="@color/greenDark" />
 
         <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:drawableLeft="@drawable/ic_user_friends"
-            android:drawablePadding="15dp"
-            android:padding="10dp"
-            android:text="Invite Friends "
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:drawableTint="@color/greenDark" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:drawableLeft="@drawable/ic_notification"
-            android:drawablePadding="15dp"
-            android:padding="10dp"
-            android:text="Notification"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:drawableTint="@color/greenDark" />
-
-        <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -201,8 +166,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linear"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="6dp"
-        android:backgroundTint="#FBF8F8"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
         android:text="Log out"
-        android:textColor="@color/greenDark" />
+        android:textColor="@color/white" />
 </RelativeLayout>
