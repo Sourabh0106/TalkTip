@@ -136,7 +136,8 @@ public class MessagesAdapter extends RecyclerView.Adapter {
 
             viewHolder.binding.message.setText(message.getMessage());
 
-         /*   if(message.getFeeling() >= 0) {
+
+            if(message.getFeeling() >= 0) {
                 viewHolder.binding.feeling.setImageResource(reactions[message.getFeeling()]);
                 viewHolder.binding.feeling.setVisibility(View.VISIBLE);
             } else {
@@ -154,7 +155,7 @@ public class MessagesAdapter extends RecyclerView.Adapter {
                         Toast.makeText(context, "This feature is disabled temporarily.", Toast.LENGTH_SHORT).show();
                     return false;
                 }
-            });*/
+            });
 
             viewHolder.binding.image.setOnTouchListener(new View.OnTouchListener() {
                 @Override
