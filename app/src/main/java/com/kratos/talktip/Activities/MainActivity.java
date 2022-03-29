@@ -152,6 +152,11 @@ public class MainActivity extends AppCompatActivity {
                         intent.setAction(Intent.ACTION_GET_CONTENT);
                         startActivityForResult(intent, 75);
                         break;
+                    case R.id.calls:
+                        Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("content://contacts/people/"));
+                        startActivity(intent1);
+                        break;
+
                 }
                 return false;
             }
