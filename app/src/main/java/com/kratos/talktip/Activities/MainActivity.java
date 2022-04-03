@@ -235,9 +235,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.groups:
                 startActivity(new Intent(MainActivity.this,GroupChatActivity.class));
                 break;
-            case R.id.search:
-                Toast.makeText(this, "Search Clicked", Toast.LENGTH_SHORT).show();
-                break;
+//            case R.id.search:
+//                Intent intent11 = new Intent(Intent.ACTION_VIEW, Uri.parse("content://google/search/"));
+//                startActivity(intent11);
+//                break;
             case R.id.settings:
                 Toast.makeText(this, "Settings Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this,SettingActivity.class));
