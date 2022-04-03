@@ -23,7 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/backArrow"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="71dp"
         android:layout_marginRight="20dp"
         android:gravity="center"
         android:orientation="vertical">
@@ -160,14 +162,4 @@
             app:drawableTint="@color/greenDark" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linear"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/green"
-        android:text="Log out"
-        android:textColor="@color/white" />
 </RelativeLayout>

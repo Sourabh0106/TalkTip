@@ -63,15 +63,6 @@ public class SettingActivity extends AppCompatActivity {
             }
         });
 
-        binding.logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent1 = new Intent(SettingActivity.this,PhoneNumberActivity.class);
-                startActivity(intent1);
-                finish();
-                Toast.makeText(SettingActivity.this, "Success", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         binding.saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
