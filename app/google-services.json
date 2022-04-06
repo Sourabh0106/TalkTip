@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "100344050743",
-    "project_id": "talktip-6791f",
-    "storage_bucket": "talktip-6791f.appspot.com"
+    "project_number": "582974755594",
+    "project_id": "talktip-cdaa2",
+    "storage_bucket": "talktip-cdaa2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:100344050743:android:c3e03f43a4bc42ecb23bb2",
+        "mobilesdk_app_id": "1:582974755594:android:436b5a69aa84bd8afd20f3",
         "android_client_info": {
           "package_name": "com.kratos.talktip"
         }
       },
       "oauth_client": [
         {
-          "client_id": "100344050743-io474tug7qr2i2uhk8l318svhmft00oi.apps.googleusercontent.com",
+          "client_id": "582974755594-6hsoq020qmbah2c2hidm6vgq314iv0s0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCp8rhWbFJU_HjWC0km8sTnc2Rflbacdbs"
+          "current_key": "AIzaSyCyXBqG4H55mMcOqCIoOV1v_3rDhsW1WAI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "100344050743-io474tug7qr2i2uhk8l318svhmft00oi.apps.googleusercontent.com",
+              "client_id": "582974755594-6hsoq020qmbah2c2hidm6vgq314iv0s0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
